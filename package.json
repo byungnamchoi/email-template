@@ -1,0 +1,27 @@
+{
+  "name": "email-template",
+  "version": "1.0.0",
+  "description": "Email Template",
+  "main": "index.js",
+  "scripts": {
+    "send": "node index.js",
+    "build": "juice --web-resources-images false input.html output.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byungnamchoi/email-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byungnamchoi/email-template/issues"
+  },
+  "homepage": "https://github.com/byungnamchoi/email-template#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "eslint": "^8.0.1",
+    "juice": "^8.0.0",
+    "nodemailer": "^6.7.0"
+  }
+}

@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  mso-line-height-rule: exactly;
+  background-color: #fafafa;
+  word-spacing: normal;
+}
+p {
+  margin: 0;
+  font-family: Arial, "Malgun Gothic", sans-serif;
+}
+a {
+  color: #000;
+  color: currentColor;
+  color: inherit;
+  text-decoration: none;
+}
+.notice {
+  padding: 40px 20px;
+  background-color: #fafafa;
+  font-size: 16px;
+  font-size: 1rem;
+  font-size: max(16px, 1rem);
+}
+.notice > table {
+  max-width: 600px;
+  margin: 0 auto;
+}
