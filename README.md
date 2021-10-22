@@ -26,11 +26,13 @@ npm run build
 ```
 
 ### 메일 계정 json 파일 생성
+
+`/config/sender-info.json` 파일 생성 후 메일 계정 입력
+
 ```
-/config/sender-info.json 파일 생성 후
-메일 계정 입력
 {
   "user": "메일 계정",
   "pass": "메일 비밀번호"
 }
+```
 ```
